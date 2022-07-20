@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             bool isOpen = true;
-
             Dictionary<string, string> dictionary = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase);
 
             dictionary.Add("Чебурек", "Жаренный в масле плоский пирожок из тонкого пресного теста с начинкой из бараньего фарша с острыми приправами.");
