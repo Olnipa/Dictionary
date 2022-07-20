@@ -62,12 +62,12 @@
 
         static void WriteDictionaryKeys(Dictionary<string, string> dictionary)
         {
-            int i = 1;
+            int wordIndex = 1;
 
-            foreach (var item in dictionary.Keys)
+            foreach (var keyWord in dictionary.Keys)
             {
-                Console.WriteLine($"{i}. {item}");
-                i++;
+                Console.WriteLine($"{wordIndex}. {keyWord}");
+                wordIndex++;
             }
         }
     }
